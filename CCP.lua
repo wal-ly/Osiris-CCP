@@ -1,6 +1,6 @@
--- Create a table to hold functions with Unicode keys
-local functions = {}
-functions["打印"] = print
+local CCP = {}
+getgenv().Silent = true
+CCP["中共"] = getgenv().Silent
 
 -- You can then access the function using the Unicode string
-functions["打印"]("Hello world")
+print(CCP["打印"])
