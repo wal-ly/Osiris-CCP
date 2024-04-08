@@ -1,4 +1,5 @@
 -- Create a table to store your settings.
+print("Script initiated")
 local settings = {}
 
 -- Assign the "enabled" property to the Chinese word "启用" within the table.
